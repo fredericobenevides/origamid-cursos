@@ -72,7 +72,7 @@
   font-family: Georgia, "Times New Roman", serif;
 }
 
-.dados_email {
+.contato_dados span:nth-of-type(even) {
   margin-bottom: 40px;
 }
 
@@ -95,3 +95,6 @@
   border-color: #000;
 }
 
+.contato_mapa {
+  margin-bottom: 60px;
+}
