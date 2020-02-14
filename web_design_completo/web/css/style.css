@@ -12,6 +12,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .btn {
@@ -198,6 +199,10 @@ img {
     text-align: center;
 }
 
+.produtos_lista li img {
+  margin: 0 auto;
+}
+
 .produtos_lista li h3 {
     font-weight: bold;
     font-size: 18px;
@@ -217,7 +222,7 @@ img {
 }
 
 .produtos_lista li p {
-  padding: 10px 20px 20px 10px;
+    padding: 10px 20px 20px 10px;
 }
 
 .produtos_icone {
@@ -252,7 +257,7 @@ img {
 }
 
 .portfolio_lista li:last-child {
-   margin-top: 20px;
+    margin-top: 20px;
 }
 
 .portfolio .call p {
@@ -342,7 +347,7 @@ img {
 }
 
 .footer h3:after {
-   content: "";
+    content: "";
     display: block;
     width: 60px;
     height: 3px;
