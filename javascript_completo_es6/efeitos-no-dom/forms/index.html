@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <style>
+      label {
+        display: block;
+        font-family: 'Arial';
+        font-weight: 'bold';
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+      }
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      input,
+      textarea {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.5rem;
+        border: 2px solid #000;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      textarea {
+        height: 150px;
+      }
+      .invalido {
+        border-color: red;
+      }
+    </style>
+
+    <form name="contato" id="contato">
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="name" value="" required />
+      <span class="erro"></span>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="name" required />
+      <span class="erro"></span>
+      <label for="mensagem">Mensagem</label>
+      <textarea name="mensagem" id="textarea"></textarea>
+      <!-- <select name="cores" id="cores"> -->
+      <!--   <option value="blue">azul</option> -->
+      <!--   <option value="red">vermelho</option> -->
+      <!-- </select> -->
+      <!-- <input type="radio" value="guitarra" id="guitarra" name="instrumento" /> -->
+      <!-- <label for="guitarra">Guitarra</label> -->
+      <!-- <input type="radio" value="baixo" id="baixo" name="instrumento" /> -->
+      <!-- <label for="baixo">Baixo</label> -->
+    </form>
+    <span class="texto"></span>
+    <script src="script.js"></script>
+  </body>
+</html>
