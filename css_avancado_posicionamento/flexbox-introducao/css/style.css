@@ -1,0 +1,17 @@
+section {
+  display: flex;
+}
+
+section > div {
+  background: tomato;
+  margin: 10px;
+  padding: 10px;
+  /* flex-grow: 1; */
+  /* flex-basis: 0; */
+  /* flex-basis: 0; */
+  flex-grow: 1;
+}
+
+.item-2 {
+  flex-grow: 5;
+}
